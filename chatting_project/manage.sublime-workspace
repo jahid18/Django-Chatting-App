@@ -1,0 +1,1274 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"iframe\tTag"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"t",
+				"top\tproperty"
+			],
+			[
+				"s",
+				"sticky\tposition"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"ba",
+				"background-image\tproperty"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"m",
+				"my_id"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"pr",
+				"product"
+			],
+			[
+				"objec",
+				"object"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"obje",
+				"object"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"de",
+				"default"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
+				"A",
+				"AuthMiddlewareStack"
+			],
+			[
+				"f",
+				"from"
+			],
+			[
+				"from-",
+				"from-0"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"va",
+				"validated_data\tparam"
+			],
+			[
+				"countr",
+				"country_of_issuance"
+			],
+			[
+				"Pay",
+				"PaymentMethod\tclass"
+			],
+			[
+				"Com",
+				"Component"
+			],
+			[
+				"response",
+				"responseJson\tparameter"
+			],
+			[
+				"Qu",
+				"QuestionResponseSerializer\tclass"
+			],
+			[
+				"q",
+				"Question\tclass"
+			],
+			[
+				"Q",
+				"Question\tclass"
+			],
+			[
+				"seria",
+				"serializer_class"
+			],
+			[
+				"Wel",
+				"WelcomeMatDiv"
+			],
+			[
+				"sender",
+				"sender_id"
+			],
+			[
+				"Lec",
+				"LectureNode〔class〕"
+			],
+			[
+				"lec",
+				"lectures"
+			],
+			[
+				"Proj",
+				"ProjectNode〔class〕"
+			],
+			[
+				"Django",
+				"DjangoFilterConnectionField〔module〕"
+			],
+			[
+				"L",
+				"LectureNode"
+			],
+			[
+				"Pr",
+				"ProjectNode〔class〕"
+			],
+			[
+				"User",
+				"UserModel"
+			],
+			[
+				"con",
+				"contrib〔module〕"
+			],
+			[
+				"mes",
+				"message_data\tstatement"
+			],
+			[
+				"chat",
+				"chatmessage_set"
+			],
+			[
+				"Sear",
+				"SearchItemManager\tclass"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"sy",
+				"stylesheet"
+			],
+			[
+				"sty",
+				"stylesheet"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"Chat",
+				"ChatQuerySetManager\tclass"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"COLOR_GRAY2R",
+				"COLOR_GRAY2RGBA\tinstance"
+			],
+			[
+				"COLOR_GRAY2",
+				"COLOR_GRAY2BGRA\tinstance"
+			],
+			[
+				"COLOR_GRAY",
+				"COLOR_GRAY2RGB\tinstance"
+			],
+			[
+				"file",
+				"filename\tstatement"
+			],
+			[
+				"out",
+				"output.avi"
+			],
+			[
+				"list",
+				"list_display\tstatement"
+			],
+			[
+				"is",
+				"isUploading"
+			],
+			[
+				"fil",
+				"file2\tstatement"
+			],
+			[
+				"conso",
+				"console.log"
+			],
+			[
+				"progressBar",
+				"progressBarHolder"
+			],
+			[
+				"progress",
+				"progressbar"
+			],
+			[
+				"cons",
+				"console.log"
+			],
+			[
+				"vid",
+				"videoFiles"
+			],
+			[
+				"br",
+				"br\tTag"
+			],
+			[
+				"my",
+				"machine_type"
+			],
+			[
+				"machine",
+				"machine_type"
+			],
+			[
+				"mac",
+				"machine_type"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"lecture",
+				"lecture_updates"
+			],
+			[
+				"request",
+				"requested_question\tstatement"
+			],
+			[
+				"Succe",
+				"successfully"
+			],
+			[
+				"login",
+				"login_required\tfunction"
+			],
+			[
+				"logi",
+				"login_required\tfunction"
+			],
+			[
+				"stipe",
+				"stripe_id\tstatement"
+			],
+			[
+				"ap",
+				"api_key\tstatement"
+			],
+			[
+				"se",
+				"secret\tstatement"
+			],
+			[
+				"mu",
+				"MultipleObjectsReturned"
+			],
+			[
+				"does",
+				"DoesNotExist"
+			],
+			[
+				"Do",
+				"DoesNotExist"
+			],
+			[
+				"html",
+				"htmlsafe"
+			],
+			[
+				"dj",
+				"djcelery"
+			],
+			[
+				"lecu",
+				"lectureCode"
+			],
+			[
+				"vide",
+				"videoFileUrl"
+			],
+			[
+				"project",
+				"project_slug"
+			],
+			[
+				"Http",
+				"Http404\tclass"
+			],
+			[
+				"HTT",
+				"HttpResponse\tclass"
+			],
+			[
+				"save",
+				"save_search"
+			],
+			[
+				"Date",
+				"DateTimeField\tclass"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"Lectur",
+				"Lecture\tclass"
+			],
+			[
+				"P",
+				"Project\tclass"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pass",
+				"password\tstatement"
+			],
+			[
+				"email",
+				"email_user\tstatement"
+			],
+			[
+				"ex",
+				"extra_tags\t''"
+			],
+			[
+				"smart_",
+				"smart_unicode\tstatement"
+			],
+			[
+				"emai",
+				"email_user\tstatement"
+			],
+			[
+				"get_",
+				"get_user\tfunction"
+			],
+			[
+				"new",
+				"new_user"
+			],
+			[
+				"regi",
+				"registration_profile"
+			],
+			[
+				"Regi",
+				"RegistrationProfile\tclass"
+			],
+			[
+				"url",
+				"urlpatterns\tstatement"
+			],
+			[
+				"ver",
+				"verify_password"
+			],
+			[
+				"chc",
+				"check_password"
+			],
+			[
+				"password",
+				"password"
+			],
+			[
+				"api",
+				"api_key"
+			],
+			[
+				"Bas",
+				"BasicAuthentication\timport"
+			],
+			[
+				"jmitch",
+				"jmitchel3"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"buc",
+				"bucket_list\tstatement"
+			],
+			[
+				"cre",
+				"create_video_tupe\tfunction"
+			],
+			[
+				"fi",
+				"file_string"
+			],
+			[
+				"Cloud",
+				"cloud_timestamp"
+			],
+			[
+				"Le",
+				"LectureManager\tclass"
+			],
+			[
+				"cl",
+				"cloud_timestamp\tstatement"
+			],
+			[
+				"clud",
+				"cloud_timestamp"
+			],
+			[
+				"now",
+				"now_time"
+			],
+			[
+				"cloud_",
+				"cloud_string"
+			],
+			[
+				"Htt",
+				"Http404\tclass"
+			],
+			[
+				"get_user",
+				"get_user_model\tfunction"
+			],
+			[
+				"http",
+				"Http404\tclass"
+			],
+			[
+				"H",
+				"HttpResponse\tclass"
+			],
+			[
+				"it",
+				"itemKey\tparam"
+			],
+			[
+				"dom",
+				"domain_name"
+			],
+			[
+				"sett",
+				"settings\tinstance"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "chatting_project/settings.py",
+			"settings":
+			{
+				"buffer_size": 3316,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chatting_project/asgi.py",
+			"settings":
+			{
+				"buffer_size": 458,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chat/routing.py",
+			"settings":
+			{
+				"buffer_size": 164,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "from django.urls import re_path"
+			}
+		},
+		{
+			"file": "chat/consumers.py",
+			"settings":
+			{
+				"buffer_size": 2184,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "import json"
+			}
+		},
+		{
+			"file": "chat/views.py",
+			"settings":
+			{
+				"buffer_size": 218,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chat/urls.py",
+			"settings":
+			{
+				"buffer_size": 163,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "from django.urls import path"
+			}
+		},
+		{
+			"file": "chatting_project/urls.py",
+			"settings":
+			{
+				"buffer_size": 307,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chat/templates/chat/index.html",
+			"settings":
+			{
+				"buffer_size": 2117,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "requirements.txt",
+			"settings":
+			{
+				"buffer_size": 1719,
+				"encoding": "UTF-16 LE with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "chat/templates/chat/room.html",
+			"settings":
+			{
+				"buffer_size": 7743,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 179.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"codein",
+				"Code Folding: Unfold All"
+			],
+			[
+				"sublime lin",
+				"Sublime Merge: Open Repository"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"type",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"typescri",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"set",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"react",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"set syntax reac",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"set syntax: templ",
+				"Set Syntax: React Templates"
+			],
+			[
+				"re",
+				"Set Syntax: React Templates"
+			],
+			[
+				"slinter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax: react",
+				"Set Syntax: TypeScriptReact"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"react templ",
+				"Set Syntax: React Templates"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/mcs/Envs/chat/chatting_project",
+		"/C/Users/mcs/Envs/chat/chatting_project/chat",
+		"/C/Users/mcs/Envs/chat/chatting_project/chat/templates",
+		"/C/Users/mcs/Envs/chat/chatting_project/chat/templates/chat",
+		"/C/Users/mcs/Envs/chat/chatting_project/chatting_project"
+	],
+	"file_history":
+	[
+		"/C/Users/mcs/Envs/chat/chatting_project/chat/templates/chat/room.html",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/src/urls.py",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/templates/contact.html",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/templates/index.html",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/requirements.txt",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/static/css/my.css",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/templates/about.html",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/src/settings.py",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/static/css/font-awesome.css",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/static/js/jquery.fancybox.pack.js",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/Nabanno/settings.py",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/templates/portfolio.html",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/templates/projects.html",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/templates/pricing.html",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/templates/details.html",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/static/css/style.css",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/static/css/zoomslider.css",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/static/js/all.js",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/static/css/material.css",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/static/jss/all.js",
+		"/C/Users/mcs/Documents/making sheet/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2",
+		"/C/jahid/Newproject/Nabanno/Nabannobuilders/src/src/templates/index.html",
+		"/C/jahid/demo/demo2/Home.sublime-project",
+		"/C/jahid/demo/demo2/Home.html",
+		"/C/jahid/demo/demo3/Home_files/ec.js",
+		"/D/New Download/fontawesome-free-5.15.1-web.zip",
+		"/C/jahid/demo/demo3/Home_files/icon/po/icons.json",
+		"/C/jahid/demo/real/home.html",
+		"/C/jahid/demo/home.html",
+		"/C/jahid/practice/instara/nomadgram/requirements/base.txt",
+		"/C/jahid/practice/dev/trydjango/src/blog/views.py",
+		"/C/jahid/practice/dev/trydjango/src/trydjango/urls.py",
+		"/C/jahid/practice/dev3/registration/signup/signup/settings.py",
+		"/C/jahid/practice/dev3/registration/signup/accounts/views.py",
+		"/C/jahid/practice/dev3/registration/signup/accounts/models.py",
+		"/C/jahid/practice/dev3/registration/signup/accounts/admin.py",
+		"/C/jahid/practice/dev3/registration/signup/accounts/tokens.py",
+		"/C/jahid/practice/dev3/registration/signup/templates/home.html",
+		"/C/jahid/practice/dev3/registration/signup/templates/signup.html",
+		"/C/jahid/practice/dev3/registration/signup/accounts/forms.py",
+		"/C/jahid/practice/dev3/registration/signup/signup/urls.py",
+		"/C/jahid/practice/dev3/registration/signup/templates/activation_request.html",
+		"/C/jahid/practice/dev3/registration/signup/templates/activation_sent.html",
+		"/C/jahid/practice/dev2/book/book/urls.py",
+		"/C/jahid/practice/dev2/book/book/settings.py",
+		"/C/jahid/practice/dev2/book/userhome/forms.py",
+		"/C/jahid/practice/dev2/book/userhome/views.py",
+		"/C/jahid/practice/dev2/book/templates/home.html",
+		"/C/jahid/practice/dev2/book/userhome/models.py",
+		"/C/jahid/practice/dev2/book/templates/display_hotel_images.html",
+		"/C/jahid/practice/dev2/book/userhome/admin.py",
+		"/C/jahid/practice/dev2/book/src/settings.py",
+		"/C/jahid/practice/dev/trydjango/src/products/views.py",
+		"/C/jahid/Twitter/social/mytweets/manage.py",
+		"/C/jahid/practice/dev/trydjango/src/products/forms.py",
+		"/C/jahid/Twitter/social/mytweets/mytweets/urls.py",
+		"/C/jahid/Twitter/social/mytweets/tweets/templates/profile.html",
+		"/C/jahid/Twitter/social/mytweets/tweets/views.py",
+		"/C/jahid/Twitter/social/mytweets/user_profile/models.py",
+		"/C/jahid/practice/dev/trydjango/src/templates/product/product_list.html",
+		"/C/jahid/practice/dev/trydjango/src/products/models.py",
+		"/C/jahid/practice/dev/trydjango/src/templates/product/product_delete.html",
+		"/C/jahid/practice/dev/trydjango/src/templates/product/detail.html",
+		"/C/jahid/Twitter/social/mytweets/tweets/admin.py",
+		"/C/jahid/Twitter/social/mytweets/tweets/models.py",
+		"/C/jahid/Twitter/social/mytweets/user_profile/admin.py",
+		"/C/jahid/practice/dev/trydjango/src/templates/product/product_create.html",
+		"/C/jahid/practice/dev/trydjango/src/templates/contact.html",
+		"/C/jahid/practice/dev/trydjango/src/pages/views.py",
+		"/C/jahid/practice/dev/trydjango/src/templates/base.html",
+		"/C/jahid/practice/dev/trydjango/src/templates/social.html",
+		"/C/jahid/practice/dev/trydjango/src/templates/about.html",
+		"/C/jahid/practice/dev/trydjango/src/templates/navbar.html",
+		"/C/jahid/practice/dev/trydjango/src/products/admin.py",
+		"/C/jahid/practice/dev/trydjango/src/templates/home.html",
+		"/C/jahid/practice/dev/trydjango/src/trydjango/settings.py",
+		"/C/jahid/Twitter/social/mytweets/tweets/templates/base.html",
+		"/C/jahid/Twitter/social/mytweets/static/css/bootstrap.css",
+		"/C/jahid/Twitter/social/mytweets/mytweets/settings.py",
+		"/C/jahid/Twitter/social/mytweets/templates/base.html",
+		"/C/jahid/dev/channels/mysite/chat/views.py",
+		"/C/jahid/dev/channels/mysite/mysite/urls.py",
+		"/C/jahid/Dev2/newchat/mysite/chat/urls.py",
+		"/C/Users/mcs/reactifydjango/src/try-django/src/App.js",
+		"/C/Users/mcs/reactifydjango/src/try-django/src/posts/Posts.js",
+		"/C/Users/mcs/reactifydjango/src/templates/base.html",
+		"/C/Users/mcs/reactifydjango/src/templates/navbar.html",
+		"/C/Users/mcs/reactifydjango/src/staticfiles/css/reactify-django.ui.css",
+		"/C/jahid/dev/pro/try-django/src/App.js",
+		"/C/Users/mcs/reactifydjango/src/reactify-ui/src/App.js",
+		"/C/jahid/dev/pro/try-django/package.json",
+		"/C/jahid/dev/pro/try-django/public/manifest.json",
+		"/C/Users/mcs/reactifydjango/pip-selfcheck.json",
+		"/C/jahid/dev/channels/mysite/chat/consumers.py",
+		"/C/jahid/dev/channels/mysite/mysite/settings.py",
+		"/C/jahid/dev/channels/mysite/chat/models.py",
+		"/C/jahid/dev/channels/mysite/chat/templates/chat/thread.html",
+		"/C/jahid/dev/channels/mysite/templates/home.html",
+		"/C/jahid/dev/channels/mysite/templates/base.html",
+		"/C/jahid/dev/channels/mysite/templates/css.html",
+		"/C/jahid/dev/channels/mysite/templates/js.html",
+		"/C/jahid/dev/channels/mysite/mysite/routing.py",
+		"/C/jahid/dev/channels/mysite/chat/admin.py",
+		"/C/jahid/dev/channels/mysite/chat/forms.py",
+		"/C/jahid/dev/channels/mysite/chat/templates/chat/inbox.html",
+		"/C/jahid/dev/pro/reactifydjango/src/reactify-ui/src/App.js",
+		"/C/jahid/dev/pro/reactifydjango/src/reactify/urls.py",
+		"/C/jahid/dev/pro/reactifydjango/src/templates/js.html",
+		"/C/jahid/dev/pro/reactifydjango/src/reactify-ui/my-app/src/App.js",
+		"/C/jahid/dev/pro/reactifydjango/src/reactify-ui/my-app/src/index.js",
+		"/C/jahid/dev/pro/reactifydjango/src/reactify-ui/my-app/src/App.css",
+		"/C/jahid/dev/pro/reactifydjango/src/reactify-ui/my-app/src/App.test.js",
+		"/Users/jmitch/Dev/cfe-v3/src/accounts/templates/accounts/logout.html",
+		"/Users/jmitch/Dev/cfe-v3/src/accounts/views.py",
+		"/Users/jmitch/Dev/cfe-v3/src/accounts/urls.py",
+		"/Users/jmitch/Dev/cfe-v3/src/projects/views.py",
+		"/Users/jmitch/Dev/cfe-v3/src/onboarding/views.py",
+		"/Users/jmitch/Dev/cfe-v3/src/cfe-ui/src/App.css",
+		"/Users/jmitch/Dev/cfe-v3/src/templates/footer.html",
+		"/Users/jmitch/Dev/cfe-v3/src/templates/getting-started/from-zero.html",
+		"/Users/jmitch/Dev/cfe-v3/src/cfe/urls.py",
+		"/Users/jmitch/Dev/cfe-v3/src/accounts/templates/accounts/register-form.html",
+		"/Users/jmitch/Dev/cfe-v3/src/accounts/templates/accounts/login-form.html",
+		"/Users/jmitch/Dev/cfe-v3/src/accounts/templates/accounts/snippets/cfe_auth.html",
+		"/Users/jmitch/Dev/cfe-v3/src/templates/base.html",
+		"/Users/jmitch/Dev/cfe-v3/src/staticfiles/img/cfe-icon.svg",
+		"/Users/jmitch/Dev/cfe-v3/src/accounts/forms.py",
+		"/Users/jmitch/Dev/cfe-v3/src/enroll/templates/enroll/react.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 8,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "chatting_project/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3316,
+								3316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1760.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "chatting_project/asgi.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								458,
+								458
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "chat/routing.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from django.urls import re_path",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "chat/consumers.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2184,
+								2184
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import json",
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "chat/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								218,
+								218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "chat/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 163,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from django.urls import path",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "chatting_project/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								307,
+								307
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "chat/templates/chat/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2117,
+								2117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "requirements.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "chat/templates/chat/room.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7743,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6934,
+								6934
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 54.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 265.0
+	},
+	"pinned_build_system": "",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 870.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Chat Room</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        #chat-log {
+            height: 400px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        #chat-message-input {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: vertical;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        #button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        #chat-message-submit {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            flex: 1;
+            margin-right: 10px;
+        }
+        #chat-message-submit:hover {
+            background-color: #45a049;
+        }
+        #file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+            flex: 1;
+        }
+        #file-input-wrapper input[type=file] {
+            font-size: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            cursor: pointer;
+        }
+        #file-input-wrapper .btn {
+            background-color: #008CBA;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        #file-input-wrapper .btn:hover {
+            background-color: #007B9A;
+        }
+         #file-preview {
+            margin-top: 10px;
+            display: none;
+        }
+        #file-preview img {
+            max-width: 200px;
+            max-height: 200px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+        }
+        #file-name {
+            margin-top: 5px;
+            font-style: italic;
+        }
+         #chat-log img {
+            max-width: 200px;
+            max-height: 200px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        .file-link {
+            display: inline-block;
+            margin-top: 5px;
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chat Room: {{ room_name }}</h1>
+    <div id="chat-log"></div>
+    <textarea id="chat-message-input" rows="3" placeholder="Type your message here..."></textarea><br>
+    <div id="button-container">
+        <button id="chat-message-submit">Send</button>
+        <div id="file-input-wrapper">
+            <button class="btn">Choose File</button>
+            <input type="file" id="chat-file-input">
+        </div>
+    </div>
+    <div id="file-preview">
+        <img id="image-preview" alt="Image preview">
+        <div id="file-name"></div>
+    </div>
+
+    {{ room_name|json_script:"room-name" }}
+
+    <script>
+        const roomName = JSON.parse(document.getElementById('room-name').textContent);
+        const chatSocket = new WebSocket(
+            'ws://' + window.location.host +
+            '/ws/chat/' + roomName + '/'
+        );
+
+        const chatLog = document.querySelector('#chat-log');
+        const messageInput = document.querySelector('#chat-message-input');
+        const messageSubmit = document.querySelector('#chat-message-submit');
+        const fileInput = document.querySelector('#chat-file-input');
+        const filePreview = document.querySelector('#file-preview');
+        const imagePreview = document.querySelector('#image-preview');
+        const fileName = document.querySelector('#file-name');
+
+        function appendMessage(message, username, fileUrl = null, fileName = null, fileType = null) {
+            const messageElement = document.createElement('div');
+            let content = `<strong>${username}:</strong> ${message}`;
+            
+            if (fileUrl) {
+                if (fileType && fileType.startsWith('image/')) {
+                    content += `<br><img src="${fileUrl}" alt="Uploaded Image">`;
+                } else {
+                    content += `<br><a href="${fileUrl}" class="file-link" download="${fileName}">Download ${fileName}</a>`;
+                }
+            }
+            
+            messageElement.innerHTML = content;
+            chatLog.appendChild(messageElement);
+            chatLog.scrollTop = chatLog.scrollHeight;
+        }
+
+        chatSocket.onmessage = function(e) {
+            const data = JSON.parse(e.data);
+            appendMessage(data.message, data.username, data.file_url, data.file_name, data.file_type);
+        };
+
+        messageSubmit.onclick = function(e) {
+            const message = messageInput.value.trim();
+            const file = fileInput.files[0];
+
+            if (message || file) {
+                const data = {
+                    'message': message,
+                    'username': 'User'  // Replace with actual username if available
+                };
+
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        data.file = {
+                            'name': file.name,
+                            'content': e.target.result.split(',')[1],
+                            'type': file.type
+                        };
+                        chatSocket.send(JSON.stringify(data));
+                        appendMessage(message, data.username, URL.createObjectURL(file), file.name, file.type);
+                    };
+                    reader.readAsDataURL(file);
+                } else {
+                    chatSocket.send(JSON.stringify(data));
+                    appendMessage(message, data.username);
+                }
+
+                messageInput.value = '';
+                fileInput.value = '';
+                filePreview.style.display = 'none';
+            }
+        };
+
+        fileInput.addEventListener('change', function(e){
+            const file = e.target.files[0];
+            if (file) {
+                fileName.textContent = file.name;
+                if (file.type.startsWith('image/')) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        imagePreview.src = e.target.result;
+                        imagePreview.style.display = 'block';
+                    };
+                    reader.readAsDataURL(file);
+                } else {
+                    imagePreview.style.display = 'none';
+                }
+                filePreview.style.display = 'block';
+            } else {
+                filePreview.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
