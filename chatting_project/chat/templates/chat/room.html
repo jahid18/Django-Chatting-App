@@ -116,6 +116,19 @@
             text-decoration: none;
             color: #333;
         }
+        .message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .sent {
+            background-color: #dcf8c6;
+            align-self: flex-end;
+        }
+        .received {
+            background-color: #f1f0f0;
+            align-self: flex-start;
+        }
     </style>
 </head>
 <body>
@@ -135,9 +148,11 @@
     </div>
 
     {{ room_name|json_script:"room-name" }}
+    {{ username|json_script:"username" }}
 
     <script>
         const roomName = JSON.parse(document.getElementById('room-name').textContent);
+        const username = JSON.parse(document.getElementById('username').textContent);
         const chatSocket = new WebSocket(
             'ws://' + window.location.host +
             '/ws/chat/' + roomName + '/'
@@ -151,9 +166,12 @@
         const imagePreview = document.querySelector('#image-preview');
         const fileName = document.querySelector('#file-name');
 
-        function appendMessage(message, username, fileUrl = null, fileName = null, fileType = null) {
+        function appendMessage(message, messageUsername, fileUrl = null, fileName = null, fileType = null) {
             const messageElement = document.createElement('div');
-            let content = `<strong>${username}:</strong> ${message}`;
+            messageElement.classList.add('message');
+            messageElement.classList.add(messageUsername === username ? 'sent' : 'received');
+            
+            let content = `<strong>${messageUsername}:</strong> ${message}`;
             
             if (fileUrl) {
                 if (fileType && fileType.startsWith('image/')) {
@@ -170,18 +188,36 @@
 
         chatSocket.onmessage = function(e) {
             const data = JSON.parse(e.data);
-            appendMessage(data.message, data.username, data.file_url, data.file_name, data.file_type);
+            if (data.type === 'previous_messages') {
+                data.messages.forEach(msg => {
+                    appendMessage(msg.message, msg.username, msg.file_url, msg.file_name, msg.file_type);
+                });
+            } else {
+                appendMessage(data.message, data.username, data.file_url, data.file_name, data.file_type);
+            }
         };
 
-        messageSubmit.onclick = function(e) {
+        messageSubmit.onclick = sendMessage;
+        
+        messageInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        function sendMessage() {
             const message = messageInput.value.trim();
             const file = fileInput.files[0];
 
             if (message || file) {
                 const data = {
                     'message': message,
-                    'username': 'User'  // Replace with actual username if available
+                    'username': username
                 };
+
+                // Immediately display the sent message
+                appendMessage(message, username);
 
                 if (file) {
                     const reader = new FileReader();
@@ -192,19 +228,30 @@
                             'type': file.type
                         };
                         chatSocket.send(JSON.stringify(data));
-                        appendMessage(message, data.username, URL.createObjectURL(file), file.name, file.type);
+                        
+                        // Display file preview for sender
+                        if (file.type.startsWith('image/')) {
+                            appendMessage('', username, e.target.result, file.name, file.type);
+                        } else {
+                            appendMessage('', username, '#', file.name, file.type);
+                        }
                     };
                     reader.readAsDataURL(file);
                 } else {
                     chatSocket.send(JSON.stringify(data));
-                    appendMessage(message, data.username);
                 }
 
                 messageInput.value = '';
                 fileInput.value = '';
                 filePreview.style.display = 'none';
             }
-        };
+        }
+        function loadPreviousMessages() {
+            chatSocket.send(JSON.stringify({
+                'type': 'load_messages',
+                'room': roomName
+            }));
+        }
 
         fileInput.addEventListener('change', function(e){
             const file = e.target.files[0];
@@ -225,6 +272,8 @@
                 filePreview.style.display = 'none';
             }
         });
+        // Add this at the end of the script section
+        window.onload = loadPreviousMessages;
     </script>
 </body>
 </html>
